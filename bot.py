@@ -363,4 +363,4 @@ if __name__ == "__main__":
         print(f"Error: {QUESTIONS_FILE} not found. Run generate_questions.py to create it.")
     load_questions()
     load_scores()
-    bot.run(TOKEN)
+    bot.run()
