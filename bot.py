@@ -18,7 +18,7 @@ import re
 
 # ---------- Configuration ----------
 COMMAND_PREFIX = "!"
-QUESTIONS_FILE = "questions.json"
+QUESTIONS_FILE = "import_questions.py"
 DATA_FILE = "data.json"
 TOP_ROLES = [("VIP", 1), ("PRO", 2), ("NOOB", 3)]  # role name and rank position
 ROUND_QUESTIONS = 5
