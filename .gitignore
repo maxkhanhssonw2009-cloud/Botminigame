@@ -205,3 +205,14 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Không upload dữ liệu điểm số và câu hỏi cá nhân
+data.json
+questions.json
+user_questions.txt
+
+# Không upload file môi trường ảo và cache
+__pycache__/
+*.pyc
+venv/
+.env
